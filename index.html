@@ -11,21 +11,35 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/global.css">
   </head>
   <body>
+    <img src="./assets/images/background.svg">
+
     <header>
       <!-- Menu Modal -->
       <button class="hamburger open-menu-btn">
         <i class="ph ph-list"></i>
       </button>
 
+      
       <div class="menu-overlay"></div>
       <div class="menu">
+        <div class="close-btn">
+          <i class="ph ph-x-circle"></i>
+        </div>
+
         <div class="menu-content">
-          <button class="close-btn">Close</button>
-          <h2>Sliding menu</h2>
-          <p>This is a menu that slides in from the left.</p>
+          <ul class="option-list">
+            <li data-title="Quem somos?" class="selected"></li>
+            <li data-title="Caminho gratuito"></li>
+            <li data-title="Planos"></li>
+            <li data-title="Fórum"></li>
+            <li data-title="Profissionais"></li>
+            <li data-title="Suporte"></li>
+            <li data-title="Feedback"></li>
+          </ul>
         </div>
       </div>
 
@@ -38,9 +52,26 @@
     </header>
 
     <main>
-      <nav></nav>
+      <nav>
+        <ul class="option-list">
+          <li data-title="Quem somos?" class="selected"></li>
+          <li data-title="Caminho gratuito"></li>
+          <li data-title="Planos"></li>
+          <li data-title="Fórum"></li>
+          <li data-title="Profissionais"></li>
+          <li data-title="Suporte"></li>
+          <li data-title="Feedback"></li>
+        </ul>
+      </nav>
+
+      <section>
+        <h2 class="card-title">Quem somos?</h2>
+
+        <div class="card"></div>
+      </section>
     </main>
 
     <script src="./js/menu.js"></script>
+    <script src="./js/content.js"></script>
   </body>
 </html>

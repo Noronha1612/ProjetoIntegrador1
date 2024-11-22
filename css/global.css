@@ -2,13 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
-  background-image: url('../assets/images/background.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: var(--background);
-
   overflow-x: hidden;
+}
+
+body > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-width: 960px;
+
+  z-index: -999;
 }
