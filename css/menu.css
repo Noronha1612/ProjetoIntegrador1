@@ -1,0 +1,69 @@
+/* Overlay style */
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 1000;
+}
+
+/* menu container */
+.menu {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  transition: left 250ms ease;
+}
+
+/* menu content */
+.menu-content {
+  padding: 20px;
+}
+
+/* Active class */
+.menu.show {
+  left: 0;
+}
+
+.menu-overlay.show {
+  display: block;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.open-menu-btn {
+  visibility: hidden;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--tint);
+}
+
+@media screen and (max-width: 640px) {
+  .menu {
+    visibility: visible;
+  }
+  .open-menu-btn {
+    visibility: visible;
+  }
+}

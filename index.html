@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The way of help</title>
+
+    <!-- Import icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/global.css">
+  </head>
+  <body>
+    <header>
+      <!-- Menu Modal -->
+      <button class="hamburger open-menu-btn">
+        <i class="ph ph-list"></i>
+      </button>
+
+      <div class="menu-overlay"></div>
+      <div class="menu">
+        <div class="menu-content">
+          <button class="close-btn">Close</button>
+          <h2>Sliding menu</h2>
+          <p>This is a menu that slides in from the left.</p>
+        </div>
+      </div>
+
+      <label for="search-input" class="input-with-icon">
+        <i class="ph ph-magnifying-glass"></i>
+        <input id="search-input" placeholder="Algum tópico específico?">
+      </label>
+
+      <img src="./assets/images/logo.png" alt="The way of help">
+    </header>
+
+    <main>
+      <nav></nav>
+    </main>
+
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
