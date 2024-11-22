@@ -6,7 +6,9 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
 body > img {
@@ -14,7 +16,6 @@ body > img {
   top: 0;
   left: 0;
   width: 100vw;
-  min-width: 960px;
 
   z-index: -999;
 }

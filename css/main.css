@@ -45,6 +45,8 @@ main section {
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+
+  margin-bottom: 4rem;
 }
 
 .card {
