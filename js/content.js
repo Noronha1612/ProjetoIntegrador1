@@ -1,10 +1,10 @@
 const texts = {
-  "Quem somos?": "Somos uma plataforma dedicada a oferecer conhecimento de qualidade para todos. Nosso objetivo é conectar estudantes, profissionais e entusiastas da tecnologia com conteúdos e ferramentas que os ajudem a crescer e alcançar seus objetivos. Nosso time é composto porespecialistas apaixonados pelo ensino e pela inovação.",
-  "Suporte": "Precisa de ajuda? Estamos aqui para você! Nossa equipe de suporte está disponível para resolver dúvidas técnicas, orientá-lo sobre nossos serviços ou guiá-lo em sua jornada deaprendizado. Entre em contato por meio do chat ou envie-nos uma mensagem na página desuporte.",
-  "Planos": "Oferecemos opções flexíveis para se adaptar às suas necessidades. Desde planos gratuitos com acesso a conteúdos essenciais até opções premium, que desbloqueiam cursos avançados, certificados exclusivos e suporte dedicado. Escolha o plano que melhorcombina com seus objetivos!",
+  "Quem somos?": "Somos uma organização dedicada à instigar o trabalho mutuo na vida um dos outros. Vemos que o partilhar e compadecer é um grande fator para o nosso crescimento psicológico e pensando nisso criamos esse projeto, no bem geral de todos.",
+  "Suporte": "Precisa de ajuda? Estamos aqui para você! Nossa equipe de suporte está disponível para resolver dúvidas técnicas, orientá-lo sobre nossos serviços ou guiá-lo em sua jornada adiante. Entre em contato por meio do chat ou envie-nos uma mensagem na página de suporte.",
+  "Planos": "Nós temos planos mensal, trimestral, semestral e anual para melhor atender você. Nossos planos contam com consultas de perto a qualquer momento do seu dia e acesso exclusivo à nossa area vip.",
   "Caminho gratuito": "Quer começar agora mesmo? Nosso caminho gratuito é ideal para quem deseja explorarnossos conteúdos sem compromisso. Tenha acesso a materiais introdutórios, atividades interativas e suporte básico para dar seus primeiros passos na sua jornada de aprendizado.",
-  "Fórum": "Nossos alunos são nossa maior motivação. Descubra histórias inspiradoras e depoimentos reais de pessoas que transformaram suas vidas com a nossa plataforma. Participe do fórum e compartilhe também a sua experiência conosco!",
-  "Profissionais": "Contamos com uma equipe de especialistas reconhecidos em diversas áreas da tecnologia. Cada profissional é dedicado a trazer conteúdos relevantes, atualizados e alinhados às demandas do mercado, garantindo uma experiência de aprendizado única.",
+  "Fórum": "Nosso forum é gratuito e cheio de experiências e ajuda de todo tipo para você. Talvez você seja quem alguem precisa ouvir e você nem sabe ainda. De forma totalmente anonima (opcional) você pode se abrir para pessoas dispostas a ajudar e ajudar quem precisa.",
+  "Profissionais": "Contamos com uma grande e renomada equipe de profissionais que acessando algum de nossos planos você vai poder conhece-los mais de perto e alcançar o que parecia impossivel.",
   "Feedback": "Sua opinião importa! Ajude-nos a melhorar cada vez mais. Deixe seu feedback sobre a plataforma, os conteúdos e os serviços. Estamos sempre abertos a sugestões para criar uma experiência ainda melhor para você."
 }
 
